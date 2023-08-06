@@ -1,0 +1,22 @@
+section {
+    padding: 10px 15px;
+}
+
+.limitar-secao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.limitar-secao > img {
+    width: 150px;
+}
+
+.limitar-secao nav > a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+}
