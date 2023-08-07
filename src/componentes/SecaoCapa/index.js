@@ -1,12 +1,13 @@
 import React from "react"
 import './style.css'
+
 export default function SecaoCapa() {
     return (
-        <section>
-            <div>
-                <p>Preços baixos em</p>
-                <h1>ÓCULOS DE GRAU DE SOL</h1>
-                <p>Você só encotra aqui</p>
+        <section className="box-imagem-de-fundo">
+            <div className="limitar-secao box-banner">
+                <p className="text" >Preços baixos em</p>
+                <h1 className="text">ÓCULOS DE GRAU DE SOL</h1>
+                <p className="text">Você só encotra aqui</p>
             </div>
         </section>
     )

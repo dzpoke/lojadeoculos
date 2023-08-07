@@ -9,8 +9,8 @@ body {
 }
 
 .limitar-secao {
-  margin: 0 auto ;
   max-width: 1024px;
+  margin: 0 auto ;
 }
 
 .txt-titulos{
@@ -18,3 +18,4 @@ body {
   font-size: 36px;
   margin: 0 0;
 }
+
