@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Produtos() {
     return(
-        <section>
+        <section className="box-Produtoss">
             <div className="limitar-secao box-produtos">
                 <div className="box-introducao">
                     <h1 className="txt-titulos">NOSSOS PRODUTOS</h1>
@@ -20,25 +20,25 @@ export default function Produtos() {
                     <div className="boxCards">
                          <h3>Oculos de grau</h3>
                         <img src="./assets/oculos01.png" alt="Modelo de oculos 01"></img>
-                        <p>R$ 500,00</p>
+                        <p>R$ 588,34</p>
                     </div>
                         
                     <div className="boxCards">
                         <h3>Oculos de grau</h3>
-                        <img src="./assets/oculos01.png" alt="Modelo de oculos 01"></img>
-                        <p>R$ 500,00</p>
+                        <img src="./assets/oculos02.png" alt="Modelo de oculos 01"></img>
+                        <p>R$ 295,98</p>
                     </div>
                         
                     <div className="boxCards">
                         <h3>Oculos de grau</h3>
-                        <img src="./assets/oculos01.png" alt="Modelo de oculos 01"></img>
-                        <p>R$ 500,00</p>
+                        <img src="./assets/oculos03.png" alt="Modelo de oculos 01"></img>
+                        <p>R$ 1500,00</p>
                     </div>
                         
                     <div className="boxCards">
                         <h3>Oculos de grau</h3>
-                        <img src="./assets/oculos01.png" alt="Modelo de oculos 01"></img>
-                        <p>R$ 500,00</p>
+                        <img src="./assets/oculos04.png" alt="Modelo de oculos 01"></img>
+                        <p>R$ 475,66</p>
                     </div>
 
                 </div>

@@ -24,16 +24,45 @@
      font-family: 'Anybody', cursive;
 }
 
-.box-banner > p {
+.box-banner  p {
     font-size: 36px;
     color: rgb(196, 196, 196);
+    text-align: start;
 }
 
-.box-banner > h1 {
+.box-banner  h1 {
     text-transform: uppercase;
+    text-align: start;
     font-size: 60px;
     margin: 0 0;
     color: #fff;
     letter-spacing: 5px;
     line-height: 70px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+
+    .box-banner  h1 {
+        font-size: 40px;
+        max-width: 350px;
+        line-height: 50px;
+    }
+
+    .box-banner  p {
+        font-size: 20px;
+    }
+
+    .box-imagem-de-fundo {
+        padding: 60px 20px;
+    }
+
+    .box-imagem-de-fundo {
+        background-position: 89% center;
+    }
+
+    .box-banner {
+        background-color: rgb(0, 0, 0, 0.6);
+    }
 }

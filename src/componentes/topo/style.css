@@ -9,7 +9,7 @@ section {
     justify-content: space-between;
 }
 
-.limitar-secao > img {
+.limitar-secao  img {
     width: 150px;
 }
 
@@ -19,4 +19,29 @@ section {
     text-decoration: none;
     padding: 5px;
     margin: 0 5px;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .box-menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .limitar-secao img {
+        width: 150px;
+    }
+
+    .box-menu nav {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 1px solid  #aaadaf;
+    }
+
+    
 }

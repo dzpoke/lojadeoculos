@@ -1,0 +1,74 @@
+.box-contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.box-contato-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.box-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.box-card div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.box-card div img{
+    width: 18px;
+} 
+
+.box-card div p{
+   font-size: 14px;
+   margin-left: 10px;
+   color: #fff;
+} 
+
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+
+    .box-contato {
+        padding: 60px 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+
+    .box-contato {
+        padding: 0 10px;
+    }
+
+    .box-contato-cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .box-card {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .box-card div {
+        width: 150px;
+    }
+}

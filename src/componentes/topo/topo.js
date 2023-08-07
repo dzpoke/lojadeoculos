@@ -4,7 +4,7 @@ import './style.css'
 export default function Topo() {
     return(
         <header>
-            <div className="limitar-secao">
+            <div className="limitar-secao box-menu">
                 <img src="../assets/logo.png" alt="Logo da Otica Vida"></img>
                 <div>
                     <nav>
