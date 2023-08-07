@@ -5,9 +5,9 @@ export default function SecaoContato(){
     return(
         <section className="box-contato">
             <div>
-                <h1 className="txt-titulos">FALE CONOSCO</h1>
+                <h1 className="txt-titulos">Fale conosco</h1>
                 <p>
-                    Nao perca tempo e venha connhecer uma de nossas loijas ou entre em contato atras de nossos redes sociais ou na central
+                    Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.
                 </p>
             </div>
             <div className="limitar-secao">
@@ -17,7 +17,7 @@ export default function SecaoContato(){
                             <h3>Contato</h3>
                         <div>
                             <img src="./assets/local.png" alt=""></img>
-                            <p>Novas Iguaçu, RJ</p>
+                            <p>Nova Iguaçu, RJ</p>
                         </div>
 
                         <div>
