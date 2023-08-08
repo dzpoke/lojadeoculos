@@ -67,7 +67,7 @@
 }
 /* Mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 550px) {
 
     .box-Produtoss {
         padding: 60px 20px;
